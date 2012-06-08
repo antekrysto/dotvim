@@ -5,7 +5,7 @@ call pathogen#helptags()
 " Activate automatic indentation
 set autoindent
 " Redefine tabulations
-set expendtab
+set expandtab
 set shiftwidth=4
 set softtabstop=4
 set tabstop=8
@@ -18,4 +18,6 @@ set textwidth=79
 
 " Syntax coloration
 syntax on
+" Load shortkeys
+execute 'source'.$HOME.'/.vim/shortkeys.vim'
 
