@@ -45,10 +45,6 @@ function! SetAutoDjangoCompletion()
     return 1
 endfunction
 
-" Activate autocompletion for Django
-map <F10><Esc>:call SetAutoDjangoCompletion()<CR>
-
-
 " Activate completion in virtualenv libraries
 "py<<EOF
 "import os.path
