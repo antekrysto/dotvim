@@ -13,3 +13,6 @@ map <F6><Esc>:RopeGoToDefinition<CR>
 " Rename a class or a variable with Rope
 map <F7><Esc>:RopeRename<CR>
 
+" Display tasks list
+map <C-t><Plug>TaskList
+

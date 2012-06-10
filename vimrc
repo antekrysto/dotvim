@@ -1,4 +1,7 @@
-" Chargment de Pathogen
+
+" Load shortkeys
+execute 'source'.$HOME.'/.vim/shortkeys.vim'
+
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
@@ -19,7 +22,7 @@ set textwidth=79
 " Syntax coloration
 syntax on
 " Load shortkeys
-execute 'source'.$HOME.'/.vim/shortkeys.vim'
+" execute 'source'.$HOME.'/.vim/shortkeys.vim'
 
 " Activate completion for python files
 au FileType python set omnifunc=pythoncomplete#Complete
@@ -56,5 +59,4 @@ endfunction
 "    activate_this=os.path.join(project_base_dir, 'bin/activate_this.py')
 "    execfile(activate_this, dict(__file__=activate_this))
 "EOF
-
 
